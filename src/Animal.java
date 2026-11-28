@@ -50,4 +50,15 @@ public class Animal {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+
+    @Override
+    public String toString() {
+        return "ID: " + id +
+                "\nNome: " + nome +
+                "\nEspécie: " + especie +
+                "\nRaça: " + raca +
+                "\nIdade: " + idade + " anos";
+    }
+
 }
