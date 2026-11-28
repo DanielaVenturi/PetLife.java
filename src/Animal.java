@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 
     private int id;
     private String nome;
@@ -60,5 +60,5 @@ public class Animal {
                 "\nRaça: " + raca +
                 "\nIdade: " + idade + " anos";
     }
-
+    public abstract String emitirSom();
 }
